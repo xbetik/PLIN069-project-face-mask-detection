@@ -1,0 +1,9 @@
+train: ../face-mask-detection-split/images/train/ 
+val:  ../face-mask-detection-split/images/val/
+test: ../face-mask-detection-split/images/test/
+
+# number of classes
+nc: 3
+
+# class names
+names: ["with_mask","without_mask", "mask_weared_incorrect"]
